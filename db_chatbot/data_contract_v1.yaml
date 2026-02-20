@@ -1,0 +1,257 @@
+version: "1.0"
+source:
+  file: "data/brand_data.xlsx"
+  format: "xlsx"
+
+normalization:
+  missing_tokens:
+    - "NULL"
+    - ""
+  trim_strings: true
+  empty_after_trim_is_null: true
+
+tables:
+  brand_master:
+    source_table: "brand_master"
+    primary_key:
+      - "brand_id"
+    columns:
+      - source: "brand_id"
+        canonical: "brand_id"
+        type: "int"
+        nullable: false
+      - source: "brand_name"
+        canonical: "brand_name"
+        type: "string"
+        nullable: false
+      - source: "corp_name"
+        canonical: "company_name"
+        type: "string"
+        nullable: false
+      - source: "category_l"
+        canonical: "category_main"
+        type: "string"
+        nullable: false
+      - source: "category_m"
+        canonical: "category_sub"
+        type: "string"
+        nullable: false
+      - source: "start_date"
+        canonical: "franchise_start_date"
+        type: "date"
+        nullable: false
+        unit: "iso_date"
+
+  brand_year_stats:
+    source_table: "brand_year_stats"
+    primary_key:
+      - "brand_id"
+      - "year"
+    columns:
+      - source: "brand_id"
+        canonical: "brand_id"
+        type: "int"
+        nullable: false
+      - source: "year"
+        canonical: "year"
+        type: "int"
+        nullable: false
+      - source: "store_count"
+        canonical: "store_count"
+        type: "int"
+        nullable: false
+        unit: "stores"
+      - source: "new_store_count"
+        canonical: "new_stores"
+        type: "int"
+        nullable: false
+        unit: "stores"
+      - source: "closed_store_count"
+        canonical: "closed_stores"
+        type: "int"
+        nullable: false
+        unit: "stores"
+      - source: "avg_sales_amt"
+        canonical: "avg_sales_krw"
+        type: "int"
+        nullable: true
+        unit: "KRW"
+      - source: "net_store_change"
+        canonical: "net_store_change"
+        type: "int"
+        nullable: false
+        unit: "stores"
+      - source: "store_growth_rate"
+        canonical: "store_growth_rate"
+        type: "float"
+        nullable: false
+        unit: "decimal_ratio"
+      - source: "closure_rate"
+        canonical: "closure_rate"
+        type: "float"
+        nullable: false
+        unit: "decimal_ratio"
+      - source: "churn_rate"
+        canonical: "churn_rate"
+        type: "float"
+        nullable: false
+        unit: "decimal_ratio"
+
+  brand_store_types:
+    source_table: "brand_store_types"
+    primary_key:
+      - "brand_id"
+      - "store_type"
+    columns:
+      - source: "brand_id"
+        canonical: "brand_id"
+        type: "int"
+        nullable: false
+      - source: "store_type"
+        canonical: "store_type"
+        type: "string"
+        nullable: false
+      - source: "standard_area_pyeong"
+        canonical: "standard_area_pyeong"
+        type: "float"
+        nullable: true
+        unit: "pyeong"
+
+  brand_store_type_costs:
+    source_table: "brand_store_type_costs"
+    primary_key:
+      - "brand_id"
+      - "year"
+      - "store_type"
+      - "cost_category"
+    columns:
+      - source: "brand_id"
+        canonical: "brand_id"
+        type: "int"
+        nullable: false
+      - source: "year"
+        canonical: "year"
+        type: "int"
+        nullable: false
+      - source: "store_type"
+        canonical: "store_type"
+        type: "string"
+        nullable: false
+      - source: "cost_category"
+        canonical: "cost_category"
+        type: "string"
+        nullable: false
+      - source: "amount"
+        canonical: "cost_amount_krw"
+        type: "int"
+        nullable: false
+        unit: "KRW"
+
+validation:
+  hard_fail:
+    year_range:
+      min: 2000
+      max: 2100
+    non_negative_fields:
+      - "store_count"
+      - "new_stores"
+      - "closed_stores"
+      - "avg_sales_krw"
+      - "cost_amount_krw"
+    rate_bounds:
+      closure_rate:
+        min: 0.0
+      churn_rate:
+        min: 0.0
+    required_keys:
+      brand_master:
+        - "brand_id"
+      brand_year_stats:
+        - "brand_id"
+        - "year"
+      brand_store_types:
+        - "brand_id"
+        - "store_type"
+      brand_store_type_costs:
+        - "brand_id"
+        - "year"
+        - "store_type"
+        - "cost_category"
+    duplicate_policy:
+      mode: "keep_last"
+      warn: true
+
+  soft_warn:
+    suspicious_rate_upper_bound:
+      value: 5.0
+      applies_to:
+        - "store_growth_rate"
+        - "closure_rate"
+        - "churn_rate"
+    consistency_checks:
+      - name: "net_store_change_consistency"
+        expression: "new_stores - closed_stores == net_store_change"
+      - name: "total_initial_cost_consistency"
+        expression: "total_initial_cost ~= sum(cost components by brand_id/year/store_type)"
+
+query_defaults:
+  default_year_strategy: "latest_available"
+  comparison_year_strategy: "latest_common_year"
+  filter_default_year_strategy: "latest_available"
+  default_result_limit: 10
+  default_sort:
+    - field: "churn_rate"
+      order: "asc"
+    - field: "store_growth_rate"
+      order: "desc"
+    - field: "store_count"
+      order: "desc"
+
+startup_cost_rules:
+  store_type_selection:
+    if_user_specified: "use_exact_match_case_insensitive"
+    if_not_specified:
+      - "prefer_standard_store_type"
+      - "else_choose_min_total_initial_cost"
+      - "else_choose_min_computed_component_sum"
+  total_cost_precedence:
+    - "use_total_initial_cost_if_present"
+    - "else_sum_cost_components"
+  computed_component_categories:
+    - "initial_fee"
+    - "interior"
+    - "equipment"
+    - "other"
+
+brand_resolution_rules:
+  matching_order:
+    - "exact_brand_name"
+    - "case_insensitive_brand_name"
+    - "alias_dictionary"
+    - "single_unambiguous_partial_match"
+  ambiguous_match_policy: "ask_user_to_select_from_candidates"
+
+fallback_rules:
+  missing_metric_by_year:
+    policy: "use_nearest_prior_year_with_value"
+    annotate_fallback_year: true
+  no_historical_value_policy: "return_unavailable_no_estimation"
+  missing_store_type_policy: "return_unavailable_and_list_available_store_types"
+
+response_format:
+  rate_display: "percent_1_to_2_decimals"
+  currency_display: "KRW_comma_int"
+  count_display: "comma_int"
+  always_include:
+    - "year_used"
+  include_when_relevant:
+    - "store_type_used"
+  missing_sales_text: "not disclosed in source data"
+
+safety_scope:
+  source_restriction: "contract_tables_only"
+  disallowed:
+    - "forecasting"
+    - "causal_claims_not_in_data"
+    - "investment_recommendations"
+  out_of_scope_response: "provide_data_grounded_alternative"
