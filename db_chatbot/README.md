@@ -27,7 +27,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 ## Build Normalized Data
 
 ```bash
-python db_chatbot/load_validate_data.py
+python db_chatbot/scripts/load_validate_data.py
 ```
 
 ## Run Chatbot
@@ -50,3 +50,10 @@ python db_chatbot/chat_app.py
 - `brand_compare`: 두 브랜드 비교
 - `brand_filter_search`: 조건 검색
 - `brand_trend`: 연도별 추이 분석
+
+## Testing Utilities
+
+```bash
+python db_chatbot/testing/resolver_debug.py --query "비비큐"
+python db_chatbot/testing/resolver_calibrate.py --query "교촌" --query "비비큐"
+```

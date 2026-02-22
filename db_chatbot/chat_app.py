@@ -11,7 +11,7 @@ from pathlib import Path
 from langchain_core.messages import HumanMessage, SystemMessage, ToolMessage
 from langchain_openai import ChatOpenAI
 
-from data_access import BrandDataStore
+from data_access import BrandDataStore, BrandResolutionError
 from tools import (
     create_brand_compare_tool,
     create_brand_filter_search_tool,
@@ -61,7 +61,9 @@ def run_once(query: str, model: str = "gpt-4.1-mini") -> str:
             "조건 검색 요청은 brand_filter_search 도구를 사용하세요. "
             "연도별 추이 요청은 brand_trend 도구를 사용하세요. "
             "도구 결과에 error가 있으면 오류 내용을 한국어로 풀어 설명하고 "
-            "사용자가 다시 시도할 입력 예시를 1개 제시하세요."
+            "사용자가 다시 시도할 입력 예시를 1개 제시하세요. "
+            "error_type이 brand_resolution이고 resolution_status가 ambiguous이면 "
+            "후보 브랜드를 번호 목록으로 보여주고, 하나를 선택해 달라고 안내하세요."
         )
     )
     messages = [system, HumanMessage(content=query)]
@@ -75,6 +77,11 @@ def run_once(query: str, model: str = "gpt-4.1-mini") -> str:
                 continue
             try:
                 tool_result = tool.invoke(call["args"])
+            except BrandResolutionError as exc:
+                payload = exc.to_payload()
+                payload["tool_name"] = call["name"]
+                payload["input_args"] = call["args"]
+                tool_result = payload
             except Exception as exc:  # noqa: BLE001
                 tool_result = {
                     "error": str(exc),

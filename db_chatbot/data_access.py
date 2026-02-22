@@ -4,13 +4,23 @@
 from __future__ import annotations
 
 import json
+import os
+import re
+from difflib import SequenceMatcher
 from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
 
 def _normalize_brand_key(text: str) -> str:
-    return "".join(str(text).strip().lower().split())
+    lowered = str(text).strip().lower()
+    no_space = "".join(lowered.split())
+    # Keep alnum + Hangul only for stable matching.
+    return re.sub(r"[^0-9a-z가-힣]", "", no_space)
+
+
+def _similarity(a: str, b: str) -> float:
+    return SequenceMatcher(None, a, b).ratio()
 
 
 def _format_int(value: int | None) -> str:
@@ -36,6 +46,38 @@ def _load_json(path: Path) -> list[dict[str, Any]]:
         return json.load(f)
 
 
+class BrandResolutionError(ValueError):
+    def __init__(
+        self,
+        query_text: str,
+        status: str,
+        candidates: list[dict[str, Any]] | None = None,
+        reason: str | None = None,
+    ) -> None:
+        self.query_text = query_text
+        self.status = status
+        self.candidates = candidates or []
+        self.reason = reason or ""
+        if status == "ambiguous":
+            cand_text = ", ".join(
+                f"{c['brand_name']}({c['confidence']:.2f})" for c in self.candidates
+            )
+            msg = f"브랜드명 '{query_text}'이(가) 모호합니다. 다음 후보 중 선택해 주세요: {cand_text}"
+        else:
+            msg = f"브랜드 '{query_text}'을(를) 찾을 수 없습니다. 입력을 다시 확인해 주세요."
+        super().__init__(msg)
+
+    def to_payload(self) -> dict[str, Any]:
+        return {
+            "error_type": "brand_resolution",
+            "resolution_status": self.status,
+            "query_text": self.query_text,
+            "candidates": self.candidates,
+            "reason": self.reason,
+            "error": str(self),
+        }
+
+
 class BrandDataStore:
     def __init__(self, build_dir: Path | str = Path("db_chatbot/build")) -> None:
         self.build_dir = Path(build_dir)
@@ -47,39 +89,25 @@ class BrandDataStore:
         self.master_by_id = {row["brand_id"]: row for row in self.brand_master}
         self.brand_ids_by_lower_name: dict[str, list[int]] = defaultdict(list)
         self.brand_ids_by_normalized_name: dict[str, list[int]] = defaultdict(list)
+        self.brand_search_signals: dict[int, list[str]] = defaultdict(list)
         for row in self.brand_master:
-            self.brand_ids_by_lower_name[row["brand_name"].lower()].append(row["brand_id"])
-            self.brand_ids_by_normalized_name[_normalize_brand_key(row["brand_name"])].append(row["brand_id"])
+            brand_id = row["brand_id"]
+            brand_name = row["brand_name"]
+            company_name = row.get("company_name") or ""
 
-        # Korean/alias inputs -> canonical brand_name in dataset.
-        self.brand_alias_to_canonical_name: dict[str, str] = {
-            _normalize_brand_key("bbq"): "BBQ",
-            _normalize_brand_key("비비큐"): "BBQ",
-            _normalize_brand_key("교촌"): "Kyochon",
-            _normalize_brand_key("교촌치킨"): "Kyochon",
-            _normalize_brand_key("kyochon"): "Kyochon",
-            _normalize_brand_key("푸라닭"): "Puradak",
-            _normalize_brand_key("puradak"): "Puradak",
-            _normalize_brand_key("네네"): "NeNe Chicken",
-            _normalize_brand_key("네네치킨"): "NeNe Chicken",
-            _normalize_brand_key("nene"): "NeNe Chicken",
-            _normalize_brand_key("nenechicken"): "NeNe Chicken",
-            _normalize_brand_key("굽네"): "Goobne",
-            _normalize_brand_key("굽네치킨"): "Goobne",
-            _normalize_brand_key("goobne"): "Goobne",
-            _normalize_brand_key("노랑통닭"): "Norang Tongdak",
-            _normalize_brand_key("노랑"): "Norang Tongdak",
-            _normalize_brand_key("norang"): "Norang Tongdak",
-            _normalize_brand_key("pelicana"): "Pelicana",
-            _normalize_brand_key("페리카나"): "Pelicana",
-            _normalize_brand_key("bhc"): "BHC",
-            _normalize_brand_key("비에이치씨"): "BHC",
-            _normalize_brand_key("투투"): "Two Two Chicken",
-            _normalize_brand_key("twotwo"): "Two Two Chicken",
-            _normalize_brand_key("twotwochicken"): "Two Two Chicken",
-            _normalize_brand_key("mexicana"): "Mexicana",
-            _normalize_brand_key("멕시카나"): "Mexicana",
-        }
+            self.brand_ids_by_lower_name[brand_name.lower()].append(brand_id)
+            self.brand_ids_by_normalized_name[_normalize_brand_key(brand_name)].append(brand_id)
+
+            # Search signals are generated from data only (no hardcoded alias map).
+            signals = [brand_name]
+            if company_name:
+                signals.append(company_name)
+            normalized_signals = []
+            for signal in signals:
+                norm = _normalize_brand_key(signal)
+                if norm:
+                    normalized_signals.append(norm)
+            self.brand_search_signals[brand_id] = sorted(set(normalized_signals))
 
         self.year_stats_by_brand: dict[int, list[dict[str, Any]]] = defaultdict(list)
         for row in self.brand_year_stats:
@@ -96,40 +124,223 @@ class BrandDataStore:
             key = (row["brand_id"], row["year"], row["store_type"])
             self.costs_by_brand_year_type[key][row["cost_category"]] = row["cost_amount_krw"]
 
-    def resolve_brand(self, brand_query: str) -> dict[str, Any]:
+        # Resolver tuning knobs (override by env vars when needed).
+        self.resolver_top_k = int(os.getenv("RESOLVER_TOP_K", "3"))
+        self.resolver_high_confidence = float(os.getenv("RESOLVER_HIGH_CONF", "0.90"))
+        self.resolver_high_margin = float(os.getenv("RESOLVER_HIGH_MARGIN", "0.08"))
+        self.resolver_ambiguous_min = float(os.getenv("RESOLVER_AMBIG_MIN", "0.75"))
+        self.resolver_llm_min = float(os.getenv("RESOLVER_LLM_MIN", "0.70"))
+
+    def _llm_resolve_brand(self, brand_query: str) -> dict[str, Any] | None:
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            return None
+        try:
+            from openai import OpenAI
+        except Exception:
+            return None
+
+        model = os.getenv("RESOLVER_MODEL", "gpt-4.1-mini")
+        candidates = [row["brand_name"] for row in self.brand_master]
+
+        prompt = (
+            "You are a brand name resolver.\n"
+            "Given a user mention and candidate brand names, choose the single best match.\n"
+            "Return strict JSON only with keys: brand_name, confidence, reason.\n"
+            "If no reliable match, set brand_name to null.\n"
+            f"user_mention: {brand_query}\n"
+            f"candidates: {json.dumps(candidates, ensure_ascii=False)}"
+        )
+        try:
+            client = OpenAI(api_key=api_key)
+            resp = client.chat.completions.create(
+                model=model,
+                temperature=0,
+                response_format={"type": "json_object"},
+                messages=[{"role": "user", "content": prompt}],
+            )
+            text = (resp.choices[0].message.content or "").strip()
+            parsed = json.loads(text)
+            brand_name = parsed.get("brand_name")
+            confidence = float(parsed.get("confidence", 0.0))
+            reason = str(parsed.get("reason", "llm_fallback"))
+            if not brand_name:
+                return None
+            target = next((r for r in self.brand_master if r["brand_name"] == brand_name), None)
+            if not target:
+                return None
+            return {
+                "brand_id": target["brand_id"],
+                "brand_name": target["brand_name"],
+                "confidence": max(0.0, min(confidence, 1.0)),
+                "reason": reason,
+            }
+        except Exception:
+            return None
+
+    def _resolve_brand_candidate(self, brand_query: str, top_k: int = 3) -> dict[str, Any]:
         q = brand_query.strip()
         if not q:
             raise ValueError("브랜드명이 비어 있습니다.")
 
         q_norm = _normalize_brand_key(q)
+        if not q_norm:
+            return {
+                "status": "not_found",
+                "query_text": brand_query,
+                "match": None,
+                "candidates": [],
+                "reason": "empty_after_normalization",
+            }
 
         exact_ids = self.brand_ids_by_lower_name.get(q.lower(), [])
         if len(exact_ids) == 1:
-            return self.master_by_id[exact_ids[0]]
+            bid = exact_ids[0]
+            return {
+                "status": "resolved",
+                "query_text": brand_query,
+                "match": {"brand_id": bid, "brand_name": self.master_by_id[bid]["brand_name"], "confidence": 1.0},
+                "candidates": [
+                    {
+                        "brand_id": bid,
+                        "brand_name": self.master_by_id[bid]["brand_name"],
+                        "confidence": 1.0,
+                        "stage": "exact",
+                    }
+                ],
+                "reason": "exact_match",
+            }
 
         normalized_ids = self.brand_ids_by_normalized_name.get(q_norm, [])
         if len(normalized_ids) == 1:
-            return self.master_by_id[normalized_ids[0]]
+            bid = normalized_ids[0]
+            return {
+                "status": "resolved",
+                "query_text": brand_query,
+                "match": {"brand_id": bid, "brand_name": self.master_by_id[bid]["brand_name"], "confidence": 0.98},
+                "candidates": [
+                    {
+                        "brand_id": bid,
+                        "brand_name": self.master_by_id[bid]["brand_name"],
+                        "confidence": 0.98,
+                        "stage": "normalized_exact",
+                    }
+                ],
+                "reason": "normalized_exact_match",
+            }
 
-        canonical_name = self.brand_alias_to_canonical_name.get(q_norm)
-        if canonical_name:
-            alias_ids = self.brand_ids_by_lower_name.get(canonical_name.lower(), [])
-            if len(alias_ids) == 1:
-                return self.master_by_id[alias_ids[0]]
+        scored = []
+        for brand_id, signals in self.brand_search_signals.items():
+            best_score = 0.0
+            for signal in signals:
+                if q_norm == signal:
+                    score = 0.98
+                elif q_norm in signal or signal in q_norm:
+                    # Strong substring match from data-driven signals.
+                    score = 0.93
+                else:
+                    score = _similarity(q_norm, signal)
+                if score > best_score:
+                    best_score = score
+            scored.append((brand_id, best_score))
 
-        partial = [
-            row
-            for row in self.brand_master
-            if q.lower() in row["brand_name"].lower()
-            or q_norm in _normalize_brand_key(row["brand_name"])
+        scored.sort(key=lambda x: x[1], reverse=True)
+        effective_top_k = max(top_k or self.resolver_top_k, 2)
+        top = scored[:effective_top_k]
+        if not top:
+            return {
+                "status": "not_found",
+                "query_text": brand_query,
+                "match": None,
+                "candidates": [],
+                "reason": "no_candidates",
+            }
+
+        top1_id, top1_score = top[0]
+        top2_score = top[1][1] if len(top) > 1 else 0.0
+        raw_candidates = [
+            {
+                "brand_id": bid,
+                "brand_name": self.master_by_id[bid]["brand_name"],
+                "confidence": round(score, 4),
+                "stage": "fuzzy_rank",
+            }
+            for bid, score in top[:effective_top_k]
         ]
-        if len(partial) == 1:
-            return partial[0]
-        if len(partial) > 1:
-            names = ", ".join(sorted(p["brand_name"] for p in partial))
-            raise ValueError(f"브랜드명 '{brand_query}'이(가) 모호합니다. 후보: {names}")
+        # Hide non-informative candidates when all scores are effectively zero.
+        candidates = [c for c in raw_candidates if c["confidence"] > 0.01]
 
-        raise ValueError(f"브랜드 '{brand_query}'을(를) 찾을 수 없습니다.")
+        if top1_score >= self.resolver_high_confidence and (top1_score - top2_score) >= self.resolver_high_margin:
+            return {
+                "status": "resolved",
+                "query_text": brand_query,
+                "match": {
+                    "brand_id": top1_id,
+                    "brand_name": self.master_by_id[top1_id]["brand_name"],
+                    "confidence": round(top1_score, 4),
+                },
+                "candidates": candidates or raw_candidates[:1],
+                "reason": "fuzzy_confident",
+            }
+        if top1_score >= self.resolver_ambiguous_min:
+            return {
+                "status": "ambiguous",
+                "query_text": brand_query,
+                "match": None,
+                "candidates": candidates or raw_candidates,
+                "reason": "fuzzy_ambiguous",
+            }
+
+        # Optional semantic fallback (no hardcoded alias): use LLM only when API key exists.
+        llm_pick = self._llm_resolve_brand(brand_query)
+        if llm_pick and llm_pick["confidence"] >= self.resolver_llm_min:
+            return {
+                "status": "resolved",
+                "query_text": brand_query,
+                "match": {
+                    "brand_id": llm_pick["brand_id"],
+                    "brand_name": llm_pick["brand_name"],
+                    "confidence": round(llm_pick["confidence"], 4),
+                },
+                "candidates": [
+                    {
+                        "brand_id": llm_pick["brand_id"],
+                        "brand_name": llm_pick["brand_name"],
+                        "confidence": round(llm_pick["confidence"], 4),
+                        "stage": "llm_fallback",
+                    }
+                ],
+                "reason": f"llm_fallback:{llm_pick['reason']}",
+            }
+        return {
+            "status": "not_found",
+            "query_text": brand_query,
+            "match": None,
+            "candidates": candidates,
+            "reason": "low_confidence",
+        }
+
+    def resolve_brand_debug(self, brand_query: str, top_k: int = 3) -> dict[str, Any]:
+        """Return raw resolver decision payload for diagnostics/tuning."""
+        return self._resolve_brand_candidate(brand_query=brand_query, top_k=top_k)
+
+    def resolve_brand(self, brand_query: str) -> dict[str, Any]:
+        res = self._resolve_brand_candidate(brand_query, top_k=3)
+        if res["status"] == "resolved" and res["match"]:
+            return self.master_by_id[res["match"]["brand_id"]]
+        if res["status"] == "ambiguous":
+            raise BrandResolutionError(
+                query_text=brand_query,
+                status="ambiguous",
+                candidates=res.get("candidates", []),
+                reason=res.get("reason"),
+            )
+        raise BrandResolutionError(
+            query_text=brand_query,
+            status="not_found",
+            candidates=res.get("candidates", []),
+            reason=res.get("reason"),
+        )
 
     def _pick_year_row(self, rows: list[dict[str, Any]], year: int | None) -> dict[str, Any]:
         if not rows:

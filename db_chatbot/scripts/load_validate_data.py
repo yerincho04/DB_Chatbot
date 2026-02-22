@@ -32,6 +32,7 @@ except ModuleNotFoundError as exc:  # pragma: no cover - startup guard
 NS_MAIN = "http://schemas.openxmlformats.org/spreadsheetml/2006/main"
 NS_REL = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
 NS = {"a": NS_MAIN}
+BASE_DIR = Path(__file__).resolve().parents[1]
 
 
 def col_to_index(col: str) -> int:
@@ -334,13 +335,13 @@ def main() -> int:
     parser.add_argument(
         "--contract",
         type=Path,
-        default=Path("db_chatbot/data_contract_v1.yaml"),
+        default=BASE_DIR / "data_contract_v1.yaml",
         help="Path to contract YAML.",
     )
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=Path("db_chatbot/build"),
+        default=BASE_DIR / "build",
         help="Directory for normalized outputs and validation report.",
     )
     args = parser.parse_args()
