@@ -32,7 +32,12 @@ class FilterCondition(BaseModel):
         description=(
             "Filter field. One of: store_count, new_stores, closed_stores, "
             "net_store_change, store_growth_rate, closure_rate, churn_rate, "
-            "avg_sales_krw, startup_total_initial_cost_krw"
+            "avg_sales_krw, startup_total_initial_cost_krw, contract_end_count, "
+            "contract_cancel_count, name_change_count, new_store_registrations, "
+            "avg_sales_per_area_krw, avg_sales_total_krw, startup_deposit_krw, "
+            "startup_training_krw, startup_other_krw, startup_guarantee_krw, "
+            "startup_sum_krw, executives_count, employees_count, interior_store_area, "
+            "interior_cost_mid_krw, interior_cost_per_area_mid_krw"
         )
     )
     op: str = Field(description="Operator: <, <=, >, >=, ==, !=")
@@ -65,8 +70,22 @@ class BrandTrendInput(BaseModel):
         default=None,
         description=(
             "Optional metric list. Supported: store_count, new_stores, closed_stores, "
-            "net_store_change, store_growth_rate, closure_rate, churn_rate, avg_sales_krw"
+            "net_store_change, store_growth_rate, closure_rate, churn_rate, avg_sales_krw, "
+            "contract_end_count, contract_cancel_count, name_change_count, "
+            "new_store_registrations, avg_sales_per_area_krw, avg_sales_total_krw, "
+            "startup_deposit_krw, startup_training_krw, startup_other_krw, "
+            "startup_guarantee_krw, startup_sum_krw, executives_count, employees_count, "
+            "interior_store_area, interior_cost_mid_krw, interior_cost_per_area_mid_krw"
         ),
+    )
+
+
+class BrandFallbackLookupInput(BaseModel):
+    query: str = Field(description="Original user query text.")
+    top_k: int = Field(default=5, description="Max candidate brands to include.")
+    include_overview: bool = Field(
+        default=True,
+        description="Whether to include compact brand overviews for candidates.",
     )
 
 
@@ -74,7 +93,7 @@ def create_brand_overview_tool(store: BrandDataStore):
     from langchain_core.tools import StructuredTool
 
     def brand_overview(brand_name: str, year: int | None = None, store_type: str | None = None):
-        """Return a grounded overview for one chicken brand from local dataset."""
+        """Return a grounded overview for one franchise brand from local dataset."""
         return store.get_brand_overview(brand_name=brand_name, year=year, store_type=store_type)
 
     return StructuredTool.from_function(
@@ -82,7 +101,8 @@ def create_brand_overview_tool(store: BrandDataStore):
         name="brand_overview",
         description=(
             "Use this to answer single-brand overview questions about store count, "
-            "growth/churn, average sales, store types, and startup cost."
+            "growth/churn, average sales, store types, startup cost, organization, "
+            "franchise operations, and interior/funding context."
         ),
         args_schema=BrandOverviewInput,
     )
@@ -97,7 +117,7 @@ def create_brand_compare_tool(store: BrandDataStore):
         year: int | None = None,
         store_type: str | None = None,
     ):
-        """Return a grounded side-by-side comparison for two chicken brands."""
+        """Return a grounded side-by-side comparison for two franchise brands."""
         return store.get_brand_compare(
             brand_a_name=brand_a,
             brand_b_name=brand_b,
@@ -110,7 +130,7 @@ def create_brand_compare_tool(store: BrandDataStore):
         name="brand_compare",
         description=(
             "Use this to compare two brands side-by-side for store counts, growth/churn, "
-            "average sales, and startup cost."
+            "average sales, startup cost, operations/funding, and organization metrics."
         ),
         args_schema=BrandCompareInput,
     )
@@ -148,7 +168,7 @@ def create_brand_filter_search_tool(store: BrandDataStore):
         name="brand_filter_search",
         description=(
             "Use this to find brands that satisfy numeric conditions like churn rate, "
-            "store count, average sales, and startup cost."
+            "store count, average sales, startup cost, contract churn, and staffing/funding."
         ),
         args_schema=BrandFilterSearchInput,
     )
@@ -176,7 +196,60 @@ def create_brand_trend_tool(store: BrandDataStore):
         name="brand_trend",
         description=(
             "Use this to answer single-brand trend questions over years, including "
-            "store counts, growth/churn/closure rates, and average sales."
+            "store counts, growth/churn/closure rates, average sales, contract stats, "
+            "funding, staffing, and interior-cost indicators."
         ),
         args_schema=BrandTrendInput,
+    )
+
+
+def create_brand_fallback_lookup_tool(store: BrandDataStore):
+    from langchain_core.tools import StructuredTool
+
+    def brand_fallback_lookup(query: str, top_k: int = 5, include_overview: bool = True):
+        """Fallback brand lookup tool for unmatched or ambiguous user queries."""
+        top_k = max(1, min(int(top_k), 10))
+        decision = store.resolve_brand_debug(query, top_k=top_k)
+        candidates = (decision.get("candidates") or [])[:top_k]
+
+        candidate_overviews: list[dict] = []
+        if include_overview:
+            seen_names: set[str] = set()
+            for c in candidates:
+                name = str(c.get("brand_name") or "").strip()
+                if not name or name in seen_names:
+                    continue
+                seen_names.add(name)
+                try:
+                    ov = store.get_brand_overview(name)
+                    candidate_overviews.append(
+                        {
+                            "brand_name": name,
+                            "year_used": ov.get("year_used"),
+                            "note": ov.get("note"),
+                            "stats": ov.get("stats"),
+                            "startup_cost": ov.get("startup_cost"),
+                        }
+                    )
+                except Exception as exc:  # noqa: BLE001
+                    candidate_overviews.append({"brand_name": name, "error": str(exc)})
+
+        return {
+            "query": query,
+            "resolution_status": decision.get("status"),
+            "reason": decision.get("reason"),
+            "match": decision.get("match"),
+            "candidates": candidates,
+            "candidate_overviews": candidate_overviews,
+        }
+
+    return StructuredTool.from_function(
+        func=brand_fallback_lookup,
+        name="brand_fallback_lookup",
+        description=(
+            "Fallback tool. Use when user query does not fit overview/compare/filter/trend, "
+            "or when brand resolution is ambiguous/not_found. Returns lookup candidates and "
+            "compact brand data context for final answer."
+        ),
+        args_schema=BrandFallbackLookupInput,
     )

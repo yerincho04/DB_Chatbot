@@ -1,0 +1,9 @@
+{
+  "source": "api_data selected json",
+  "row_counts": {
+    "brand_master": 10977,
+    "brand_year_stats": 9940,
+    "brand_store_types": 1749,
+    "brand_store_type_costs": 33045
+  }
+}

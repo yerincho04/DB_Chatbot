@@ -80,7 +80,13 @@ def parse_sheet_xml(xlsx_path: Path, sheet_name: str) -> list[dict[str, Any]]:
         if not sheet_target:
             raise ValueError(f"Sheet not found in workbook: {sheet_name}")
 
-        sheet_path = f"xl/{sheet_target}" if not sheet_target.startswith("xl/") else sheet_target
+        # workbook rel target may be "/xl/worksheets/sheet1.xml" or relative.
+        if sheet_target.startswith("/"):
+            sheet_path = sheet_target.lstrip("/")
+        elif sheet_target.startswith("xl/"):
+            sheet_path = sheet_target
+        else:
+            sheet_path = f"xl/{sheet_target}"
         sheet_xml = ET.fromstring(zf.read(sheet_path))
 
         grid: dict[int, dict[int, Any]] = defaultdict(dict)
@@ -192,6 +198,7 @@ def normalize_table_rows(
     rows: list[dict[str, Any]],
     table_def: dict[str, Any],
     contract: dict[str, Any],
+    relaxed_brand_master: bool = False,
 ) -> tuple[list[dict[str, Any]], list[str]]:
     errors: list[str] = []
     missing_tokens = set(contract["normalization"]["missing_tokens"])
@@ -206,14 +213,22 @@ def normalize_table_rows(
             canonical = col_def["canonical"]
             nullable = bool(col_def["nullable"])
             raw_val = row.get(src)
+            relaxed_non_key = (
+                relaxed_brand_master
+                and table_name == "brand_master"
+                and canonical not in {"brand_id", "brand_name"}
+            )
             try:
                 casted = cast_value(raw_val, col_def, missing_tokens)
             except Exception as exc:  # noqa: BLE001
-                errors.append(f"{table_name}: row {idx}, field '{canonical}' cast error: {exc}")
-                row_has_error = True
-                continue
+                if relaxed_non_key:
+                    casted = None
+                else:
+                    errors.append(f"{table_name}: row {idx}, field '{canonical}' cast error: {exc}")
+                    row_has_error = True
+                    continue
 
-            if casted is None and not nullable:
+            if casted is None and not nullable and not relaxed_non_key:
                 errors.append(f"{table_name}: row {idx}, field '{canonical}' is required but missing")
                 row_has_error = True
             out[canonical] = casted
@@ -292,15 +307,69 @@ def apply_validations(contract: dict[str, Any], tables: dict[str, list[dict[str,
                         f"{table_name}: suspiciously high rate {rate_field}={row[rate_field]} (>{upper})"
                     )
 
-    # Soft consistency check for year stats table.
-    for row in deduped_tables.get("brand_year_stats", []):
-        lhs = row["new_stores"] - row["closed_stores"]
-        rhs = row["net_store_change"]
-        if lhs != rhs:
-            warnings.append(
-                "brand_year_stats: net_store_change mismatch for "
-                f"brand_id={row['brand_id']}, year={row['year']} ({lhs} != {rhs})"
-            )
+    # Soft consistency checks for year stats formulas.
+    stats_rows = deduped_tables.get("brand_year_stats", [])
+    rows_by_brand: dict[int, list[dict[str, Any]]] = defaultdict(list)
+    for row in stats_rows:
+        rows_by_brand[row["brand_id"]].append(row)
+    for brand_id in rows_by_brand:
+        rows_by_brand[brand_id].sort(key=lambda r: r["year"])
+
+    rate_tol = 1e-9
+    for brand_id, rows in rows_by_brand.items():
+        for idx, row in enumerate(rows):
+            year = row["year"]
+            new_stores = row["new_stores"]
+            closed_stores = row["closed_stores"]
+            net_store_change = row["net_store_change"]
+            store_count = row["store_count"]
+            store_growth_rate = row["store_growth_rate"]
+            closure_rate = row["closure_rate"]
+            churn_rate = row["churn_rate"]
+
+            expected_net = new_stores - closed_stores
+            if net_store_change is not None and expected_net != net_store_change:
+                warnings.append(
+                    "brand_year_stats: net_store_change mismatch for "
+                    f"brand_id={brand_id}, year={year} ({expected_net} != {net_store_change})"
+                )
+
+            if store_count and closure_rate is not None:
+                expected_closure = closed_stores / store_count
+                if not math.isclose(closure_rate, expected_closure, rel_tol=0.0, abs_tol=rate_tol):
+                    warnings.append(
+                        "brand_year_stats: closure_rate mismatch for "
+                        f"brand_id={brand_id}, year={year} "
+                        f"(expected={expected_closure}, actual={closure_rate})"
+                    )
+
+            if store_count and churn_rate is not None:
+                expected_churn = (new_stores + closed_stores) / store_count
+                if not math.isclose(churn_rate, expected_churn, rel_tol=0.0, abs_tol=rate_tol):
+                    warnings.append(
+                        "brand_year_stats: churn_rate mismatch for "
+                        f"brand_id={brand_id}, year={year} "
+                        f"(expected={expected_churn}, actual={churn_rate})"
+                    )
+
+            if store_growth_rate is not None and net_store_change is not None:
+                prev_store_count: float | None = None
+                if idx > 0:
+                    prev_store_count = float(rows[idx - 1]["store_count"])
+                else:
+                    # For first observed year (e.g., 2022), infer year-start store count.
+                    inferred_start_count = store_count - net_store_change
+                    if inferred_start_count > 0:
+                        prev_store_count = float(inferred_start_count)
+
+                if prev_store_count and prev_store_count > 0:
+                    expected_growth = net_store_change / prev_store_count
+                    if not math.isclose(store_growth_rate, expected_growth, rel_tol=0.0, abs_tol=rate_tol):
+                        warnings.append(
+                            "brand_year_stats: store_growth_rate mismatch for "
+                            f"brand_id={brand_id}, year={year} "
+                            f"(expected={expected_growth}, actual={store_growth_rate})"
+                        )
 
     # Soft consistency for total initial cost.
     grouped: dict[tuple[int, int, str], dict[str, int]] = defaultdict(dict)
@@ -344,6 +413,15 @@ def main() -> int:
         default=BASE_DIR / "build",
         help="Directory for normalized outputs and validation report.",
     )
+    parser.add_argument(
+        "--relaxed-brand-master",
+        action="store_true",
+        default=False,
+        help=(
+            "Keep brand_master rows as long as brand_id and brand_name exist, "
+            "even if other brand_master columns are missing/invalid."
+        ),
+    )
     args = parser.parse_args()
 
     contract_path = args.contract.resolve()
@@ -358,7 +436,13 @@ def main() -> int:
         source_table = table_def["source_table"]
         rows = parse_sheet_xml(source_path, source_table)
         raw_tables[table_name] = rows
-        normalized_rows, errs = normalize_table_rows(table_name, rows, table_def, contract)
+        normalized_rows, errs = normalize_table_rows(
+            table_name,
+            rows,
+            table_def,
+            contract,
+            relaxed_brand_master=args.relaxed_brand_master,
+        )
         normalized_tables[table_name] = normalized_rows
         normalize_errors.extend(errs)
 
@@ -373,6 +457,7 @@ def main() -> int:
     report = {
         "contract": str(contract_path),
         "source_file": str(source_path),
+        "relaxed_brand_master": bool(args.relaxed_brand_master),
         "row_counts": {k: len(v) for k, v in result.tables.items()},
         "error_count": len(result.errors),
         "warning_count": len(result.warnings),

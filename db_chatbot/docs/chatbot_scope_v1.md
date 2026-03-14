@@ -1,4 +1,4 @@
-# Chicken Brand Chatbot Scope (V1)
+# Franchise Brand Chatbot Scope (V1)
 
 ## Goal
 Define exactly what the chatbot can answer from `data/brand_data.xlsx` before building LangChain logic.

@@ -1,0 +1,8747 @@
+[
+  {
+    "brand_id": 9,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 11,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 24,
+    "store_type": "Standard",
+    "standard_area_pyeong": 80.0
+  },
+  {
+    "brand_id": 36,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 38,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 40,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 48,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 49,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 52,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 60,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 62,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 63,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 64,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 65,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 77,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 79,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 81,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 84,
+    "store_type": "Standard",
+    "standard_area_pyeong": 13.0
+  },
+  {
+    "brand_id": 87,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 93,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 97,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 100,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 101,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 103,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 105,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 110,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 111,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 123,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 125,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 126,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 128,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 141,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 143,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 145,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 146,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 158,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 159,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 161,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 167,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 170,
+    "store_type": "Standard",
+    "standard_area_pyeong": 5.0
+  },
+  {
+    "brand_id": 171,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 172,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 178,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 182,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 184,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 187,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 190,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 201,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 206,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 211,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 213,
+    "store_type": "Standard",
+    "standard_area_pyeong": 5.0
+  },
+  {
+    "brand_id": 217,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 218,
+    "store_type": "Standard",
+    "standard_area_pyeong": 13.0
+  },
+  {
+    "brand_id": 224,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 225,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 226,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 231,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 234,
+    "store_type": "Standard",
+    "standard_area_pyeong": 3.0
+  },
+  {
+    "brand_id": 239,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 240,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 241,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 248,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 259,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 266,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 267,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 273,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 274,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 278,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 280,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 289,
+    "store_type": "Standard",
+    "standard_area_pyeong": 33.0
+  },
+  {
+    "brand_id": 290,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 295,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 296,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 304,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 310,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 313,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 314,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 316,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 326,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 328,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 342,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 343,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 348,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 357,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 361,
+    "store_type": "Standard",
+    "standard_area_pyeong": 8.0
+  },
+  {
+    "brand_id": 363,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 365,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 3491,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3495,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 3496,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3498,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 3499,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 3501,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3502,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3506,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 3510,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 3513,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3516,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3517,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3518,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3522,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 3523,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 3526,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3527,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3528,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3532,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3533,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3546,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3550,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3553,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3554,
+    "store_type": "Standard",
+    "standard_area_pyeong": 700.0
+  },
+  {
+    "brand_id": 3555,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 3562,
+    "store_type": "Standard",
+    "standard_area_pyeong": 35.0
+  },
+  {
+    "brand_id": 3563,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3565,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3567,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3570,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 3572,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 3573,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 3574,
+    "store_type": "Standard",
+    "standard_area_pyeong": 17.0
+  },
+  {
+    "brand_id": 3575,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3576,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3579,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3582,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3584,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 3587,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3588,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3591,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3592,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3599,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3603,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3615,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3618,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3627,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3646,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3651,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3656,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3659,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3661,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3667,
+    "store_type": "Standard",
+    "standard_area_pyeong": 7.0
+  },
+  {
+    "brand_id": 3672,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3678,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3679,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3680,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3682,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3683,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3685,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3687,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3689,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3690,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3691,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3693,
+    "store_type": "Standard",
+    "standard_area_pyeong": 300.0
+  },
+  {
+    "brand_id": 3694,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3695,
+    "store_type": "Standard",
+    "standard_area_pyeong": 13.0
+  },
+  {
+    "brand_id": 3696,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3705,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3706,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3710,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3715,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3717,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3722,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3728,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3730,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3737,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3740,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3742,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3743,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 3744,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 3746,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3747,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 3755,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3756,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 3757,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3762,
+    "store_type": "Standard",
+    "standard_area_pyeong": 5.0
+  },
+  {
+    "brand_id": 3767,
+    "store_type": "Standard",
+    "standard_area_pyeong": 18.0
+  },
+  {
+    "brand_id": 3768,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3770,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3771,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3772,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3775,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3777,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3782,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3786,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3787,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 3791,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 3794,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 3800,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3802,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3804,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3821,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3822,
+    "store_type": "Standard",
+    "standard_area_pyeong": 5.0
+  },
+  {
+    "brand_id": 3829,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3843,
+    "store_type": "Standard",
+    "standard_area_pyeong": 18.0
+  },
+  {
+    "brand_id": 3851,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3853,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3863,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3864,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 3865,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 3867,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 3883,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3885,
+    "store_type": "Standard",
+    "standard_area_pyeong": 35.0
+  },
+  {
+    "brand_id": 3886,
+    "store_type": "Standard",
+    "standard_area_pyeong": 35.0
+  },
+  {
+    "brand_id": 3887,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3899,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3900,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3907,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 3908,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3911,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 3927,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3932,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 3936,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3941,
+    "store_type": "Standard",
+    "standard_area_pyeong": 80.0
+  },
+  {
+    "brand_id": 3948,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3953,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3954,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3958,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3961,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 3963,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3965,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3967,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3968,
+    "store_type": "Standard",
+    "standard_area_pyeong": 28.0
+  },
+  {
+    "brand_id": 3971,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3973,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3982,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 3988,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 3995,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 3998,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4002,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 4005,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4006,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 4009,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4011,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4013,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4015,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4022,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4026,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4032,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 4040,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4043,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4045,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4047,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4049,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4051,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4052,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4058,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4060,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4064,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4068,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4070,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4078,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4079,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4082,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 4084,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4087,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4097,
+    "store_type": "Standard",
+    "standard_area_pyeong": 14.0
+  },
+  {
+    "brand_id": 4102,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4104,
+    "store_type": "Standard",
+    "standard_area_pyeong": 4.0
+  },
+  {
+    "brand_id": 4107,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4108,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4112,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4116,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4118,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 4121,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4130,
+    "store_type": "Standard",
+    "standard_area_pyeong": 45.0
+  },
+  {
+    "brand_id": 4132,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4140,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4145,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4146,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 4149,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4159,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 4163,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4179,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4183,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4184,
+    "store_type": "Standard",
+    "standard_area_pyeong": 16.0
+  },
+  {
+    "brand_id": 4186,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4187,
+    "store_type": "Standard",
+    "standard_area_pyeong": 5.0
+  },
+  {
+    "brand_id": 4189,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4195,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4196,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4203,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4210,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4213,
+    "store_type": "Standard",
+    "standard_area_pyeong": 66.0
+  },
+  {
+    "brand_id": 4214,
+    "store_type": "Standard",
+    "standard_area_pyeong": 75.0
+  },
+  {
+    "brand_id": 4215,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4221,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4222,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4223,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 4229,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4230,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 4231,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4232,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4233,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4234,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4235,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4236,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 4242,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4247,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4248,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4249,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4258,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 4259,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4261,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4263,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4267,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4270,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4271,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4274,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4276,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4280,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4281,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4282,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4283,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4286,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 4292,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 4294,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 4298,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 4304,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4306,
+    "store_type": "Standard",
+    "standard_area_pyeong": 113.0
+  },
+  {
+    "brand_id": 4308,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4309,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4310,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 4312,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4317,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 4318,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4322,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4326,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4338,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4352,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4354,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4356,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4360,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4361,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4364,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 4371,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4372,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4376,
+    "store_type": "Standard",
+    "standard_area_pyeong": 5.0
+  },
+  {
+    "brand_id": 4378,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4379,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4380,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 4383,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 4384,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4387,
+    "store_type": "Standard",
+    "standard_area_pyeong": 3.0
+  },
+  {
+    "brand_id": 4388,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4389,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 4393,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4400,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 4420,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4421,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4427,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4428,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 4430,
+    "store_type": "Standard",
+    "standard_area_pyeong": 7.0
+  },
+  {
+    "brand_id": 4442,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4445,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4447,
+    "store_type": "Standard",
+    "standard_area_pyeong": 5.0
+  },
+  {
+    "brand_id": 4448,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4455,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4457,
+    "store_type": "Standard",
+    "standard_area_pyeong": 80.0
+  },
+  {
+    "brand_id": 4458,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 4462,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4466,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4469,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4472,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4477,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4482,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4484,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4488,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 4493,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 4496,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4501,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4503,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4514,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 4520,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4521,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4522,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4525,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4533,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4538,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4539,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4546,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4548,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4551,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4553,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4554,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4557,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4562,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 4577,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4582,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4586,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4588,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4589,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4590,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4595,
+    "store_type": "Standard",
+    "standard_area_pyeong": 13.0
+  },
+  {
+    "brand_id": 4601,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4602,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4604,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4609,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4612,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 4623,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4624,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4627,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4629,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4637,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4640,
+    "store_type": "Standard",
+    "standard_area_pyeong": 6.0
+  },
+  {
+    "brand_id": 4642,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4646,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4649,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4658,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4661,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4666,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4677,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4679,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 4682,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4686,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4689,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4690,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4691,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4692,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4698,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 4699,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4700,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 4703,
+    "store_type": "Standard",
+    "standard_area_pyeong": 33.0
+  },
+  {
+    "brand_id": 4704,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4711,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 4713,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4714,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4715,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4716,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4723,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 4729,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4730,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 4732,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4739,
+    "store_type": "Standard",
+    "standard_area_pyeong": 8.0
+  },
+  {
+    "brand_id": 4741,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4770,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 4771,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4772,
+    "store_type": "Standard",
+    "standard_area_pyeong": 35.0
+  },
+  {
+    "brand_id": 4775,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 4776,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 4779,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4780,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 4788,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 4793,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4798,
+    "store_type": "Standard",
+    "standard_area_pyeong": 8.0
+  },
+  {
+    "brand_id": 4807,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 4813,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4814,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4815,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4822,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4824,
+    "store_type": "Standard",
+    "standard_area_pyeong": 24.0
+  },
+  {
+    "brand_id": 4833,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4841,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4846,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4850,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 4861,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4866,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4867,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4869,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4872,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4876,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4877,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4884,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4886,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4887,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4889,
+    "store_type": "Standard",
+    "standard_area_pyeong": 8.0
+  },
+  {
+    "brand_id": 4892,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4893,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4898,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4899,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4903,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 4906,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 4910,
+    "store_type": "Standard",
+    "standard_area_pyeong": 35.0
+  },
+  {
+    "brand_id": 4914,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4917,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 4918,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4921,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 4930,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 4934,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4935,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4937,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4940,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 4941,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 4943,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4950,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4951,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4952,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4953,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4955,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4956,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4958,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4959,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 4979,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 4982,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4992,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 4994,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 4998,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5000,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5002,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 5004,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5021,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5027,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5032,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 5034,
+    "store_type": "Standard",
+    "standard_area_pyeong": 5.0
+  },
+  {
+    "brand_id": 5041,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5047,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5048,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 5051,
+    "store_type": "Standard",
+    "standard_area_pyeong": 13.0
+  },
+  {
+    "brand_id": 5055,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5059,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5061,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5063,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5064,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5065,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5067,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5070,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5072,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5074,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5084,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 5090,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5104,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5110,
+    "store_type": "Standard",
+    "standard_area_pyeong": 8.0
+  },
+  {
+    "brand_id": 5117,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5118,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5119,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5121,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5123,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5131,
+    "store_type": "Standard",
+    "standard_area_pyeong": 24.0
+  },
+  {
+    "brand_id": 5135,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5136,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5137,
+    "store_type": "Standard",
+    "standard_area_pyeong": 45.0
+  },
+  {
+    "brand_id": 5140,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5144,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 5145,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5148,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5154,
+    "store_type": "Standard",
+    "standard_area_pyeong": 35.0
+  },
+  {
+    "brand_id": 5155,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5156,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 5178,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5179,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5186,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5188,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 5193,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5199,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5201,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 5202,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5208,
+    "store_type": "Standard",
+    "standard_area_pyeong": 200.0
+  },
+  {
+    "brand_id": 5209,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5211,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5227,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 5232,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5233,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 5235,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 5245,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5249,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5254,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 5259,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 5261,
+    "store_type": "Standard",
+    "standard_area_pyeong": 14.0
+  },
+  {
+    "brand_id": 5262,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5263,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5265,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5266,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5267,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5270,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5271,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 5273,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5278,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5280,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5281,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5284,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5287,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 5307,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5312,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5315,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5317,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 5318,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5320,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5325,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5326,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 5327,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5337,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5339,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 5341,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 5344,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5345,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5349,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5353,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5356,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5361,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 5367,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5368,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5369,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5371,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5375,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5377,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5382,
+    "store_type": "Standard",
+    "standard_area_pyeong": 150.0
+  },
+  {
+    "brand_id": 5399,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5400,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5402,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 5407,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5411,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5419,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5421,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5424,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5431,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5438,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5439,
+    "store_type": "Standard",
+    "standard_area_pyeong": 2420.0
+  },
+  {
+    "brand_id": 5440,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5443,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5447,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5449,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5450,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5451,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5452,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5453,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5454,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 5455,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5456,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5460,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5466,
+    "store_type": "Standard",
+    "standard_area_pyeong": 80.0
+  },
+  {
+    "brand_id": 5468,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5470,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5472,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5473,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5479,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 5481,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5486,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 5489,
+    "store_type": "Standard",
+    "standard_area_pyeong": 29.0
+  },
+  {
+    "brand_id": 5494,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5499,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5500,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5502,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5505,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 5506,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 5508,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5509,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5519,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 5522,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5524,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 5525,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5533,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5550,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5560,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5561,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5563,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5565,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5576,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 5577,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5580,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 5593,
+    "store_type": "Standard",
+    "standard_area_pyeong": 2200.0
+  },
+  {
+    "brand_id": 5596,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5599,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5602,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5608,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5618,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5624,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5631,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5632,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 5633,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5637,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 5647,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5653,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5654,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5659,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5660,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5661,
+    "store_type": "Standard",
+    "standard_area_pyeong": 8.0
+  },
+  {
+    "brand_id": 5663,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5665,
+    "store_type": "Standard",
+    "standard_area_pyeong": 17.0
+  },
+  {
+    "brand_id": 5671,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5677,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 5686,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5691,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5693,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5695,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5699,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5700,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 5712,
+    "store_type": "Standard",
+    "standard_area_pyeong": 5.0
+  },
+  {
+    "brand_id": 5728,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5740,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5752,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5754,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5756,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5758,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 5768,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5769,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 5774,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5775,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5779,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5789,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5797,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5802,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5804,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5809,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 5813,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5818,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5821,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5826,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 5831,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5832,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 5835,
+    "store_type": "Standard",
+    "standard_area_pyeong": 16.0
+  },
+  {
+    "brand_id": 5841,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5843,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5847,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5853,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5860,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 5862,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5867,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5868,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5869,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 5882,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5885,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5888,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5895,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 5900,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5902,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5917,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 5921,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5923,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5925,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 5929,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5933,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5934,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5942,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 5943,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 5949,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5952,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 5960,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5962,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5971,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 5973,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5974,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5975,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 5976,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5977,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 5981,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 5983,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 5991,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6000,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6001,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6002,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6003,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6005,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6010,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6011,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6012,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 6032,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6035,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6040,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6042,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 6044,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6062,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6064,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6065,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6067,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6068,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6069,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6070,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6074,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6076,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6080,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6082,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6085,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6092,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6104,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6106,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6107,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6109,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6110,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6111,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6116,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6124,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 6125,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6130,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6135,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6136,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6139,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6142,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 6148,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 6150,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 6155,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 6156,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6158,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6159,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6161,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6162,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6171,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6172,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6173,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6182,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 6187,
+    "store_type": "Standard",
+    "standard_area_pyeong": 8.0
+  },
+  {
+    "brand_id": 6190,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6194,
+    "store_type": "Standard",
+    "standard_area_pyeong": 80.0
+  },
+  {
+    "brand_id": 6196,
+    "store_type": "Standard",
+    "standard_area_pyeong": 9.0
+  },
+  {
+    "brand_id": 6198,
+    "store_type": "Standard",
+    "standard_area_pyeong": 5.0
+  },
+  {
+    "brand_id": 6199,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6203,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6206,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6209,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6210,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6212,
+    "store_type": "Standard",
+    "standard_area_pyeong": 24.0
+  },
+  {
+    "brand_id": 6225,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6233,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6234,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6239,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 6244,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6248,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6251,
+    "store_type": "Standard",
+    "standard_area_pyeong": 248.0
+  },
+  {
+    "brand_id": 6252,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6253,
+    "store_type": "Standard",
+    "standard_area_pyeong": 5.0
+  },
+  {
+    "brand_id": 6254,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6255,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6256,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6257,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6258,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6263,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6266,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6267,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6268,
+    "store_type": "Standard",
+    "standard_area_pyeong": 35.0
+  },
+  {
+    "brand_id": 6274,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6275,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6281,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6289,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6290,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6292,
+    "store_type": "Standard",
+    "standard_area_pyeong": 300.0
+  },
+  {
+    "brand_id": 6296,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6301,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6303,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6307,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6309,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6311,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 6318,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6331,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 6332,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6335,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6339,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6340,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6345,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6346,
+    "store_type": "Standard",
+    "standard_area_pyeong": 80.0
+  },
+  {
+    "brand_id": 6349,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6354,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6367,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6375,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6381,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6383,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6386,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6388,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6390,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6395,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6401,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6411,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6412,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 6421,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 6422,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6425,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6427,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 6429,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6436,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6437,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6450,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6452,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6453,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6456,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6459,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6462,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6480,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6484,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6493,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 6497,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6505,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6509,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6511,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6513,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6523,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6527,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6528,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6532,
+    "store_type": "Standard",
+    "standard_area_pyeong": 3.0
+  },
+  {
+    "brand_id": 6533,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6535,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6538,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6546,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6549,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 6551,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6563,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6564,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6566,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6574,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6577,
+    "store_type": "Standard",
+    "standard_area_pyeong": 80.0
+  },
+  {
+    "brand_id": 6581,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6582,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 6590,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6600,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6608,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6614,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6616,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6620,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6621,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6622,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6631,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6635,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 6639,
+    "store_type": "Standard",
+    "standard_area_pyeong": 5.0
+  },
+  {
+    "brand_id": 6675,
+    "store_type": "Standard",
+    "standard_area_pyeong": 8.0
+  },
+  {
+    "brand_id": 6676,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 6678,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6680,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 6681,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6683,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6686,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 6687,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6688,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 6691,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 6694,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6701,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6707,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6709,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 6710,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6711,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 6712,
+    "store_type": "Standard",
+    "standard_area_pyeong": 70.0
+  },
+  {
+    "brand_id": 6716,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6722,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 6725,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6736,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6737,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6744,
+    "store_type": "Standard",
+    "standard_area_pyeong": 7.0
+  },
+  {
+    "brand_id": 6762,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6763,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6772,
+    "store_type": "Standard",
+    "standard_area_pyeong": 35.0
+  },
+  {
+    "brand_id": 6779,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 6781,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6782,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 6785,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6787,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6789,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6791,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 6795,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 6798,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6800,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6801,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6802,
+    "store_type": "Standard",
+    "standard_area_pyeong": 70.0
+  },
+  {
+    "brand_id": 6803,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 6812,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 6827,
+    "store_type": "Standard",
+    "standard_area_pyeong": 1650.0
+  },
+  {
+    "brand_id": 6832,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6833,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6836,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6853,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6856,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6857,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6861,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6862,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6863,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6867,
+    "store_type": "Standard",
+    "standard_area_pyeong": 5.0
+  },
+  {
+    "brand_id": 6869,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 6870,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 6872,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6876,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6884,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6892,
+    "store_type": "Standard",
+    "standard_area_pyeong": 5.0
+  },
+  {
+    "brand_id": 6894,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6895,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 6908,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6913,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6917,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6919,
+    "store_type": "Standard",
+    "standard_area_pyeong": 90.0
+  },
+  {
+    "brand_id": 6922,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6923,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6941,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6942,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6943,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 6944,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6949,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6950,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 6960,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6961,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6965,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6966,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 6976,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 6981,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6986,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 6987,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 6988,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 6993,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 7005,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7010,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7023,
+    "store_type": "Standard",
+    "standard_area_pyeong": 13.0
+  },
+  {
+    "brand_id": 7026,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7028,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 7030,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7032,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7039,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7044,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7046,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7047,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7059,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 7062,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 7063,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7064,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7065,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 7067,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7070,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 7073,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7074,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7080,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7082,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7087,
+    "store_type": "Standard",
+    "standard_area_pyeong": 6.0
+  },
+  {
+    "brand_id": 7089,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7092,
+    "store_type": "Standard",
+    "standard_area_pyeong": 45.0
+  },
+  {
+    "brand_id": 7105,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7110,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 7115,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 7117,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 7118,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7122,
+    "store_type": "Standard",
+    "standard_area_pyeong": 35.0
+  },
+  {
+    "brand_id": 7127,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7129,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7137,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7142,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7146,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 7150,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7151,
+    "store_type": "Standard",
+    "standard_area_pyeong": 13.0
+  },
+  {
+    "brand_id": 7158,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7160,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7161,
+    "store_type": "Standard",
+    "standard_area_pyeong": 90.0
+  },
+  {
+    "brand_id": 7163,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 7179,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7194,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7195,
+    "store_type": "Standard",
+    "standard_area_pyeong": 66.0
+  },
+  {
+    "brand_id": 7201,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7205,
+    "store_type": "Standard",
+    "standard_area_pyeong": 13.0
+  },
+  {
+    "brand_id": 7209,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7214,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7217,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 7219,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 7220,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7228,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7230,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 7231,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7232,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7233,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7236,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 7240,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7242,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7245,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7258,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7259,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 7260,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7261,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7263,
+    "store_type": "Standard",
+    "standard_area_pyeong": 8.0
+  },
+  {
+    "brand_id": 7264,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7268,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7269,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7272,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 7273,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7291,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7292,
+    "store_type": "Standard",
+    "standard_area_pyeong": 6.0
+  },
+  {
+    "brand_id": 7293,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7306,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 7311,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 7313,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7314,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7319,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7335,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7345,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7346,
+    "store_type": "Standard",
+    "standard_area_pyeong": 35.0
+  },
+  {
+    "brand_id": 7347,
+    "store_type": "Standard",
+    "standard_area_pyeong": 13.0
+  },
+  {
+    "brand_id": 7348,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 7351,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7363,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7364,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7365,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7368,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7369,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7373,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7375,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7383,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7391,
+    "store_type": "Standard",
+    "standard_area_pyeong": 45.0
+  },
+  {
+    "brand_id": 7399,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7406,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7408,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 7410,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 7411,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7426,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7427,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7432,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7435,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7438,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7442,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7448,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7449,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7453,
+    "store_type": "Standard",
+    "standard_area_pyeong": 200.0
+  },
+  {
+    "brand_id": 7454,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7455,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7457,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7459,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7464,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 7470,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 7471,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 7479,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7491,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7494,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7499,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7500,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7504,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7506,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7508,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7517,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7518,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7520,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7524,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7531,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7532,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7535,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7536,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 7539,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7540,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7541,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7548,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7555,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 7559,
+    "store_type": "Standard",
+    "standard_area_pyeong": 45.0
+  },
+  {
+    "brand_id": 7561,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7562,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7565,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 7567,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7568,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 7570,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7571,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7572,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7573,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7576,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7588,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 7598,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7600,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7609,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7612,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 7613,
+    "store_type": "Standard",
+    "standard_area_pyeong": 5.0
+  },
+  {
+    "brand_id": 7616,
+    "store_type": "Standard",
+    "standard_area_pyeong": 180.0
+  },
+  {
+    "brand_id": 7620,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7621,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7622,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7640,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7644,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7645,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7653,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7654,
+    "store_type": "Standard",
+    "standard_area_pyeong": 13.0
+  },
+  {
+    "brand_id": 7655,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 7664,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7665,
+    "store_type": "Standard",
+    "standard_area_pyeong": 7.0
+  },
+  {
+    "brand_id": 7672,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7674,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7676,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 7685,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7689,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7698,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7710,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7715,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 7723,
+    "store_type": "Standard",
+    "standard_area_pyeong": 70.0
+  },
+  {
+    "brand_id": 7725,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7727,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7728,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7734,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7735,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 7740,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7741,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7744,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7748,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7750,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7756,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7761,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7765,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7768,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7778,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7783,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7789,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7790,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 7802,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7813,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7817,
+    "store_type": "Standard",
+    "standard_area_pyeong": 3.0
+  },
+  {
+    "brand_id": 7820,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7832,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7833,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7840,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7842,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 7843,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7844,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7850,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7851,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7860,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7865,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7866,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7869,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7870,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7871,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 7872,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 7873,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7874,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7875,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7878,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 7882,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7883,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7885,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7901,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 7905,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7909,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7917,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7918,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7920,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7921,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7922,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7923,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7924,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7925,
+    "store_type": "Standard",
+    "standard_area_pyeong": 8.0
+  },
+  {
+    "brand_id": 7930,
+    "store_type": "Standard",
+    "standard_area_pyeong": 14.0
+  },
+  {
+    "brand_id": 7939,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7945,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7946,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 7947,
+    "store_type": "Standard",
+    "standard_area_pyeong": 80.0
+  },
+  {
+    "brand_id": 7948,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7951,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7952,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7954,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 7957,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7959,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 7961,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 7978,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7980,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7981,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 7982,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 7996,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8006,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 8007,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8026,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8028,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 8029,
+    "store_type": "Standard",
+    "standard_area_pyeong": 7.0
+  },
+  {
+    "brand_id": 8034,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8037,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8038,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 8040,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8042,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8045,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8055,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 8056,
+    "store_type": "Standard",
+    "standard_area_pyeong": 8.0
+  },
+  {
+    "brand_id": 8063,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8064,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8069,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 8070,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8079,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8086,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 8095,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8097,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8098,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 8103,
+    "store_type": "Standard",
+    "standard_area_pyeong": 14.0
+  },
+  {
+    "brand_id": 8110,
+    "store_type": "Standard",
+    "standard_area_pyeong": 18.0
+  },
+  {
+    "brand_id": 8112,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8113,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8114,
+    "store_type": "Standard",
+    "standard_area_pyeong": 5.0
+  },
+  {
+    "brand_id": 8116,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8117,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8121,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8127,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 8131,
+    "store_type": "Standard",
+    "standard_area_pyeong": 75.0
+  },
+  {
+    "brand_id": 8136,
+    "store_type": "Standard",
+    "standard_area_pyeong": 18.0
+  },
+  {
+    "brand_id": 8139,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8142,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8147,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 8148,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 8151,
+    "store_type": "Standard",
+    "standard_area_pyeong": 45.0
+  },
+  {
+    "brand_id": 8154,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8162,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8165,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 8167,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8169,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8170,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8172,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8178,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8182,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8184,
+    "store_type": "Standard",
+    "standard_area_pyeong": 2000.0
+  },
+  {
+    "brand_id": 8185,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 8187,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 8190,
+    "store_type": "Standard",
+    "standard_area_pyeong": 14.0
+  },
+  {
+    "brand_id": 8191,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 8194,
+    "store_type": "Standard",
+    "standard_area_pyeong": 45.0
+  },
+  {
+    "brand_id": 8201,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8212,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8215,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8224,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8228,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 8229,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8233,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8238,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 8245,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8248,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8260,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8262,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8263,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8275,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8276,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8277,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8279,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8281,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8282,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8283,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8285,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8287,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8288,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8297,
+    "store_type": "Standard",
+    "standard_area_pyeong": 140.0
+  },
+  {
+    "brand_id": 8299,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8325,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 8327,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8329,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8330,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8331,
+    "store_type": "Standard",
+    "standard_area_pyeong": 167.0
+  },
+  {
+    "brand_id": 8334,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8345,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8350,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8352,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8360,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8365,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8366,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8367,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 8370,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8371,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8373,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8377,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8386,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8388,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8391,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8394,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8396,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8398,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8399,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 8403,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 8405,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 8417,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8419,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8421,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 8422,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 8424,
+    "store_type": "Standard",
+    "standard_area_pyeong": 13.0
+  },
+  {
+    "brand_id": 8425,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8428,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 8435,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8436,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 8440,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 8441,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8445,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8453,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8455,
+    "store_type": "Standard",
+    "standard_area_pyeong": 130.0
+  },
+  {
+    "brand_id": 8469,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 8470,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8480,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 8487,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8489,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8491,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8495,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8502,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8503,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8504,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8505,
+    "store_type": "Standard",
+    "standard_area_pyeong": 6.0
+  },
+  {
+    "brand_id": 8506,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 8517,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 8522,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8528,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8529,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8532,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 8538,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8539,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8541,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 8543,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8545,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8546,
+    "store_type": "Standard",
+    "standard_area_pyeong": 35.0
+  },
+  {
+    "brand_id": 8550,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8551,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8552,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 8553,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 8556,
+    "store_type": "Standard",
+    "standard_area_pyeong": 21.0
+  },
+  {
+    "brand_id": 8561,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8562,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8570,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 8572,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8573,
+    "store_type": "Standard",
+    "standard_area_pyeong": 14.0
+  },
+  {
+    "brand_id": 8576,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8579,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8585,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8587,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8588,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8589,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 8590,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8592,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8598,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8607,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8608,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8615,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 8616,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8623,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8633,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8637,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 8645,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8650,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 8654,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8670,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8675,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8676,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 8677,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8682,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8684,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8688,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8690,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 8691,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8693,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8698,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 8699,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8702,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8703,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8704,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8706,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8710,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8713,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8724,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 8725,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8733,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8736,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8737,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8738,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8740,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8741,
+    "store_type": "Standard",
+    "standard_area_pyeong": 70.0
+  },
+  {
+    "brand_id": 8743,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8745,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8746,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8749,
+    "store_type": "Standard",
+    "standard_area_pyeong": 700.0
+  },
+  {
+    "brand_id": 8753,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8754,
+    "store_type": "Standard",
+    "standard_area_pyeong": 700.0
+  },
+  {
+    "brand_id": 8764,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8765,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8768,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8778,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8780,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8787,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8788,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8790,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8797,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8798,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8804,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8818,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8819,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8826,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8831,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8839,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8846,
+    "store_type": "Standard",
+    "standard_area_pyeong": 18.0
+  },
+  {
+    "brand_id": 8863,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 8866,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 8867,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8888,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8892,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8895,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8898,
+    "store_type": "Standard",
+    "standard_area_pyeong": 8.0
+  },
+  {
+    "brand_id": 8899,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8902,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 8905,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 8906,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8907,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8913,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8914,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8919,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 8927,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 8930,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8933,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 8937,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8938,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8941,
+    "store_type": "Standard",
+    "standard_area_pyeong": 70.0
+  },
+  {
+    "brand_id": 8944,
+    "store_type": "Standard",
+    "standard_area_pyeong": 7.0
+  },
+  {
+    "brand_id": 8947,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8955,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8956,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 8958,
+    "store_type": "Standard",
+    "standard_area_pyeong": 8.0
+  },
+  {
+    "brand_id": 8961,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 8965,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 8974,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 9001,
+    "store_type": "Standard",
+    "standard_area_pyeong": 80.0
+  },
+  {
+    "brand_id": 9005,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 9008,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 9009,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 9013,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 9021,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 9024,
+    "store_type": "Standard",
+    "standard_area_pyeong": 8.0
+  },
+  {
+    "brand_id": 9031,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 9036,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 9042,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 9043,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 9055,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 9057,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 9062,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 9063,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 9065,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 9066,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 9068,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 9077,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 9078,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 9081,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 9083,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 9084,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 9087,
+    "store_type": "Standard",
+    "standard_area_pyeong": 35.0
+  },
+  {
+    "brand_id": 9090,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 9097,
+    "store_type": "Standard",
+    "standard_area_pyeong": 11.0
+  },
+  {
+    "brand_id": 9098,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 9100,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 9104,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 9120,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 9122,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 9129,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 9136,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 9145,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 9149,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 9154,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 9160,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 9163,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 9926,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 9927,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 9939,
+    "store_type": "Standard",
+    "standard_area_pyeong": 13.0
+  },
+  {
+    "brand_id": 9950,
+    "store_type": "Standard",
+    "standard_area_pyeong": 18.0
+  },
+  {
+    "brand_id": 9951,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 9952,
+    "store_type": "Standard",
+    "standard_area_pyeong": 35.0
+  },
+  {
+    "brand_id": 9953,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 9954,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 9955,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 9959,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 9965,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 9977,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 9990,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 9991,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 9994,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10001,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10003,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10028,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10046,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10049,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10052,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10065,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10067,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 10073,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10075,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10082,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 10087,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10090,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10094,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 10097,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10099,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10100,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10101,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10102,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10106,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10121,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10122,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10127,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10132,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10142,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10154,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10155,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10156,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10161,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 2515,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 10164,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 10166,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 10167,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10168,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10169,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 10171,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10173,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 10174,
+    "store_type": "Standard",
+    "standard_area_pyeong": 8.0
+  },
+  {
+    "brand_id": 10175,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10176,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10177,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 10178,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 10179,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10181,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10182,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10184,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10188,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10189,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 10191,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 10196,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10200,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 10201,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10204,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10210,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10211,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10219,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10225,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10235,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10248,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10253,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10258,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10266,
+    "store_type": "Standard",
+    "standard_area_pyeong": 42.0
+  },
+  {
+    "brand_id": 10269,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 10270,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10271,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10278,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 10280,
+    "store_type": "Standard",
+    "standard_area_pyeong": 7.0
+  },
+  {
+    "brand_id": 10281,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10282,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10285,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 10288,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10291,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10292,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10293,
+    "store_type": "Standard",
+    "standard_area_pyeong": 8.0
+  },
+  {
+    "brand_id": 10298,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10300,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10302,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10305,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 10319,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10332,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 10333,
+    "store_type": "Standard",
+    "standard_area_pyeong": 90.0
+  },
+  {
+    "brand_id": 10342,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10344,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10345,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10346,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10348,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10352,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 10354,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10359,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10361,
+    "store_type": "Standard",
+    "standard_area_pyeong": 3.0
+  },
+  {
+    "brand_id": 10364,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10366,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10367,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 10368,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 10373,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10375,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 10379,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10382,
+    "store_type": "Standard",
+    "standard_area_pyeong": 2.0
+  },
+  {
+    "brand_id": 10386,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10387,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10389,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10390,
+    "store_type": "Standard",
+    "standard_area_pyeong": 60.0
+  },
+  {
+    "brand_id": 10391,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10399,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 10419,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10420,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10421,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 10428,
+    "store_type": "Standard",
+    "standard_area_pyeong": 1.0
+  },
+  {
+    "brand_id": 10435,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10436,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10437,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10438,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10443,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10444,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 10468,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10469,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10482,
+    "store_type": "Standard",
+    "standard_area_pyeong": 1650.0
+  },
+  {
+    "brand_id": 10488,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10491,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10492,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10495,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10496,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 10505,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10508,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10509,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10516,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10524,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10526,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10533,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10535,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10536,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10539,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10554,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10556,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10557,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10561,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10566,
+    "store_type": "Standard",
+    "standard_area_pyeong": 7.0
+  },
+  {
+    "brand_id": 10569,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 10571,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10574,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10578,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10579,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10581,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10582,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10584,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10589,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10594,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10595,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10598,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10604,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10605,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 10623,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10627,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10632,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10636,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10638,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10639,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 10644,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 10646,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10652,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10658,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10669,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10673,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10675,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10680,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10685,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10687,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 10690,
+    "store_type": "Standard",
+    "standard_area_pyeong": 100.0
+  },
+  {
+    "brand_id": 10696,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10699,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10703,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10712,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10718,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 10724,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10732,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10738,
+    "store_type": "Standard",
+    "standard_area_pyeong": 0.0
+  },
+  {
+    "brand_id": 10739,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10740,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10741,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10742,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10744,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10755,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10757,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10764,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10768,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10773,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 10778,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10794,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10795,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10801,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10804,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10809,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10815,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10837,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10838,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10839,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10844,
+    "store_type": "Standard",
+    "standard_area_pyeong": 25.0
+  },
+  {
+    "brand_id": 10845,
+    "store_type": "Standard",
+    "standard_area_pyeong": 12.0
+  },
+  {
+    "brand_id": 10849,
+    "store_type": "Standard",
+    "standard_area_pyeong": 13.0
+  },
+  {
+    "brand_id": 10851,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10858,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10865,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10870,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10875,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10888,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10891,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 10892,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 10895,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10896,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10902,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10906,
+    "store_type": "Standard",
+    "standard_area_pyeong": 80.0
+  },
+  {
+    "brand_id": 10909,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 10911,
+    "store_type": "Standard",
+    "standard_area_pyeong": 30.0
+  },
+  {
+    "brand_id": 10927,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10934,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10941,
+    "store_type": "Standard",
+    "standard_area_pyeong": 50.0
+  },
+  {
+    "brand_id": 10942,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10943,
+    "store_type": "Standard",
+    "standard_area_pyeong": 20.0
+  },
+  {
+    "brand_id": 10950,
+    "store_type": "Standard",
+    "standard_area_pyeong": 10.0
+  },
+  {
+    "brand_id": 10958,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10969,
+    "store_type": "Standard",
+    "standard_area_pyeong": 15.0
+  },
+  {
+    "brand_id": 10973,
+    "store_type": "Standard",
+    "standard_area_pyeong": 40.0
+  },
+  {
+    "brand_id": 10975,
+    "store_type": "Standard",
+    "standard_area_pyeong": 6.0
+  }
+]

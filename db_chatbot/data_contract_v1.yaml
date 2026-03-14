@@ -79,22 +79,22 @@ tables:
       - source: "net_store_change"
         canonical: "net_store_change"
         type: "int"
-        nullable: false
+        nullable: true
         unit: "stores"
       - source: "store_growth_rate"
         canonical: "store_growth_rate"
         type: "float"
-        nullable: false
+        nullable: true
         unit: "decimal_ratio"
       - source: "closure_rate"
         canonical: "closure_rate"
         type: "float"
-        nullable: false
+        nullable: true
         unit: "decimal_ratio"
       - source: "churn_rate"
         canonical: "churn_rate"
         type: "float"
-        nullable: false
+        nullable: true
         unit: "decimal_ratio"
 
   brand_store_types:
