@@ -1,0 +1,144 @@
+{
+  "type": "inference_smoke_hard",
+  "items": [
+    {
+      "tag": [
+        "overview",
+        "resolver",
+        "fuzzy"
+      ],
+      "question": "교촌 요약해줘. 최신 기준으로 핵심만.",
+      "expected_behavior": "교촌을 교촌치킨으로 해석하고, 최신 연도 기준 overview를 제공해야 한다.",
+      "index": "inference_smoke_hard:001"
+    },
+    {
+      "tag": [
+        "overview",
+        "multi_metric"
+      ],
+      "question": "BHC의 최신 점포 수, 순증감, 평균 매출, 창업비용을 한 번에 정리해줘.",
+      "expected_behavior": "단일 브랜드 overview에서 여러 핵심 지표를 함께 설명해야 한다.",
+      "index": "inference_smoke_hard:002"
+    },
+    {
+      "tag": [
+        "compare",
+        "multi_metric"
+      ],
+      "question": "교촌치킨이랑 BBQ를 비교해줘. 점포 수, 폐점률, 평균 매출, 창업비용 기준으로.",
+      "expected_behavior": "두 브랜드를 공통 기준 연도로 맞춰 비교하고 차이를 설명해야 한다.",
+      "index": "inference_smoke_hard:003"
+    },
+    {
+      "tag": [
+        "compare",
+        "implicit_year"
+      ],
+      "question": "BBQ랑 BHC 중 누가 최근 기준으로 더 공격적으로 확장 중인지 데이터로 보여줘.",
+      "expected_behavior": "비교 도구를 사용해 최근 공통 연도 기준의 신규점, 순증감, 성장률 같은 확장 지표를 근거로 설명해야 한다.",
+      "index": "inference_smoke_hard:004"
+    },
+    {
+      "tag": [
+        "trend",
+        "single_metric"
+      ],
+      "question": "교촌치킨의 최근 몇 년 점포 수 추이를 연도별로 보여줘.",
+      "expected_behavior": "trend 도구를 사용해 연도별 점포 수 timeline을 반환해야 한다.",
+      "index": "inference_smoke_hard:005"
+    },
+    {
+      "tag": [
+        "trend",
+        "multi_metric"
+      ],
+      "question": "BBQ의 최근 몇 년 동안 폐점률이랑 churn rate가 어떻게 변했는지 같이 설명해줘.",
+      "expected_behavior": "trend 도구를 사용해 두 개 이상의 지표 변화를 함께 설명해야 한다.",
+      "index": "inference_smoke_hard:006"
+    },
+    {
+      "tag": [
+        "filter",
+        "multi_condition"
+      ],
+      "question": "평균 매출은 높은데 폐점률은 낮은 브랜드를 찾아줘.",
+      "expected_behavior": "filter 도구를 사용해 복수 조건 검색을 시도해야 한다.",
+      "index": "inference_smoke_hard:007"
+    },
+    {
+      "tag": [
+        "filter",
+        "cost"
+      ],
+      "question": "창업비용이 너무 높지 않으면서 점포 수가 어느 정도 있는 브랜드를 찾아줘.",
+      "expected_behavior": "filter 도구를 사용해 비용과 점포 수를 함께 고려한 검색을 수행해야 한다.",
+      "index": "inference_smoke_hard:008"
+    },
+    {
+      "tag": [
+        "filter",
+        "ranking"
+      ],
+      "question": "최근 기준으로 점포 수 상위 브랜드들 중 churn rate가 낮은 편인 브랜드를 보여줘.",
+      "expected_behavior": "filter 또는 정렬 기반 검색으로 점포 수와 churn rate를 함께 고려해야 한다.",
+      "index": "inference_smoke_hard:009"
+    },
+    {
+      "tag": [
+        "missing_metric",
+        "known_brand"
+      ],
+      "question": "교촌치킨의 가족 운영비율은 몇 퍼센트야?",
+      "expected_behavior": "브랜드는 찾되, 지원하지 않는 지표이므로 원천 데이터에 없다고 답해야 한다.",
+      "index": "inference_smoke_hard:010"
+    },
+    {
+      "tag": [
+        "missing_metric",
+        "known_brand",
+        "unsupported"
+      ],
+      "question": "BBQ의 법 위반 사실도 같이 확인해줘.",
+      "expected_behavior": "브랜드는 찾더라도 현재 데이터 범위 밖의 항목이므로 데이터에 없다고 답해야 한다.",
+      "index": "inference_smoke_hard:011"
+    },
+    {
+      "tag": [
+        "not_found",
+        "resolver"
+      ],
+      "question": "삼대국밥 연구소의 최초가맹금은 얼마야?",
+      "expected_behavior": "브랜드를 찾지 못했다고 답해야 하며, 비슷한 다른 브랜드를 확정적으로 답하면 안 된다.",
+      "index": "inference_smoke_hard:012"
+    },
+    {
+      "tag": [
+        "not_found",
+        "typo"
+      ],
+      "question": "가춘치킨의 연간 매출액은 얼마야?",
+      "expected_behavior": "오타 브랜드로 인식하고 not_found 또는 후보 제시를 해야 하며, 임의의 수치를 만들면 안 된다.",
+      "index": "inference_smoke_hard:013"
+    },
+    {
+      "tag": [
+        "mixed",
+        "compare",
+        "trend"
+      ],
+      "question": "교촌치킨과 BHC를 비교하되, 지금 규모 차이랑 최근 성장 흐름이 같이 보이게 설명해줘.",
+      "expected_behavior": "비교와 추세를 함께 요구하는 어려운 질의로, 최소한 비교 중심으로 grounded answer를 제공해야 한다.",
+      "index": "inference_smoke_hard:014"
+    },
+    {
+      "tag": [
+        "mixed",
+        "filter",
+        "analysis"
+      ],
+      "question": "점포 수는 큰데 창업비용 부담은 상대적으로 낮아 보이는 브랜드를 몇 개 골라줘.",
+      "expected_behavior": "정량 조건을 바탕으로 검색하고, 추천처럼 단정하지 말고 데이터 기준으로 후보를 제시해야 한다.",
+      "index": "inference_smoke_hard:015"
+    }
+  ]
+}
