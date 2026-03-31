@@ -1,0 +1,81 @@
+{
+  "type": "resolver_cases",
+  "items": [
+    {
+      "index": "resolver:001",
+      "tool": "resolver_debug",
+      "input": {
+        "brand_query": "교촌",
+        "top_k": 3
+      },
+      "assertions": {
+        "equals": {
+          "status": "resolved",
+          "match.brand_name": "교촌치킨"
+        },
+        "min": {
+          "match.confidence": 0.9
+        }
+      }
+    },
+    {
+      "index": "resolver:002",
+      "tool": "resolver_debug",
+      "input": {
+        "brand_query": "BHC",
+        "top_k": 3
+      },
+      "assertions": {
+        "equals": {
+          "status": "resolved",
+          "match.brand_name": "비에이치씨(BHC)"
+        }
+      }
+    },
+    {
+      "index": "resolver:003",
+      "tool": "resolver_debug",
+      "input": {
+        "brand_query": "비비큐",
+        "top_k": 3
+      },
+      "assertions": {
+        "equals": {
+          "status": "ambiguous"
+        },
+        "contains": {
+          "candidates[].brand_name": "BBQ"
+        },
+        "len_at_least": {
+          "candidates": 2
+        }
+      }
+    },
+    {
+      "index": "resolver:004",
+      "tool": "resolver_debug",
+      "input": {
+        "brand_query": "가춘치킨",
+        "top_k": 3
+      },
+      "assertions": {
+        "equals": {
+          "status": "not_found"
+        }
+      }
+    },
+    {
+      "index": "resolver:005",
+      "tool": "resolver_debug",
+      "input": {
+        "brand_query": "삼대국밥 연구소",
+        "top_k": 3
+      },
+      "assertions": {
+        "equals": {
+          "status": "not_found"
+        }
+      }
+    }
+  ]
+}

@@ -39,7 +39,7 @@ def main() -> int:
     args = parser.parse_args()
 
     load_env_file(BASE_DIR / ".env")
-    store = BrandDataStore(build_dir=BASE_DIR / "build")
+    store = BrandDataStore(build_dir=BASE_DIR / "build_api_selected")
     result = store.resolve_brand_debug(args.query, top_k=args.top_k)
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0

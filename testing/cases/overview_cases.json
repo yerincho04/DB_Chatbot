@@ -1,0 +1,73 @@
+{
+  "type": "overview_cases",
+  "items": [
+    {
+      "index": "overview:001",
+      "tool": "brand_overview",
+      "input": {
+        "brand_name": "교촌치킨"
+      },
+      "assertions": {
+        "equals": {
+          "brand.brand_name": "교촌치킨",
+          "year_used": 2024
+        },
+        "min": {
+          "stats.store_count": 1000,
+          "stats.avg_sales_krw": 100000
+        },
+        "not_null": [
+          "startup_cost.total_initial_cost_krw",
+          "extended.funding.startup_sum_krw",
+          "extended.organization.employees_count"
+        ],
+        "len_at_least": {
+          "store_types": 1
+        }
+      }
+    },
+    {
+      "index": "overview:002",
+      "tool": "brand_overview",
+      "input": {
+        "brand_name": "배스킨라빈스",
+        "store_type": "Standard"
+      },
+      "assertions": {
+        "equals": {
+          "brand.brand_name": "배스킨라빈스",
+          "startup_cost.store_type_used": "Standard"
+        },
+        "min": {
+          "stats.store_count": 1000,
+          "startup_cost.total_initial_cost_krw": 100000
+        },
+        "not_null": [
+          "extended.identity.representative_name",
+          "extended.interior.interior_cost_mid_krw"
+        ]
+      }
+    },
+    {
+      "index": "overview:003",
+      "tool": "brand_overview",
+      "input": {
+        "brand_name": "버거킹(Burger King)"
+      },
+      "assertions": {
+        "equals": {
+          "brand.brand_name": "버거킹(Burger King)",
+          "year_used": 2024
+        },
+        "min": {
+          "stats.avg_sales_krw": 500000,
+          "startup_cost.total_initial_cost_krw": 300000
+        },
+        "not_null": [
+          "extended.franchise_ops.contract_end_count",
+          "extended.organization.executives_count"
+        ]
+      }
+    }
+  ]
+}

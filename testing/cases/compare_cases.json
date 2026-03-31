@@ -1,0 +1,63 @@
+{
+  "type": "compare_cases",
+  "items": [
+    {
+      "index": "compare:001",
+      "tool": "brand_compare",
+      "input": {
+        "brand_a_name": "교촌치킨",
+        "brand_b_name": "BBQ"
+      },
+      "assertions": {
+        "equals": {
+          "comparison_year_used": 2024,
+          "brand_a.brand.brand_name": "교촌치킨",
+          "brand_b.brand.brand_name": "BBQ"
+        },
+        "max": {
+          "diff.store_count": -1
+        },
+        "not_null": [
+          "brand_a.stats.store_count",
+          "brand_b.stats.store_count",
+          "brand_a.extended.franchise_ops.avg_sales_total_krw",
+          "brand_b.extended.organization.employees_count"
+        ]
+      }
+    },
+    {
+      "index": "compare:002",
+      "tool": "brand_compare",
+      "input": {
+        "brand_a_name": "BHC",
+        "brand_b_name": "BBQ"
+      },
+      "assertions": {
+        "equals": {
+          "brand_a.brand.brand_name": "비에이치씨(BHC)",
+          "brand_b.brand.brand_name": "BBQ"
+        },
+        "min": {
+          "brand_a.stats.store_count": 2000,
+          "brand_b.stats.store_count": 2000
+        },
+        "not_null": [
+          "diff.churn_rate",
+          "brand_a.startup_cost.total_initial_cost_krw",
+          "brand_b.extended.interior.interior_cost_mid_krw"
+        ]
+      }
+    },
+    {
+      "index": "compare:003",
+      "tool": "brand_compare",
+      "input": {
+        "brand_a_name": "교촌치킨",
+        "brand_b_name": "교촌치킨"
+      },
+      "assertions": {
+        "error_contains": "서로 다른 두 브랜드"
+      }
+    }
+  ]
+}

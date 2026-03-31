@@ -1,0 +1,84 @@
+{
+  "type": "filter_cases",
+  "items": [
+    {
+      "index": "filter:001",
+      "tool": "brand_filter_search",
+      "input": {
+        "conditions": [
+          {
+            "field": "store_count",
+            "op": ">=",
+            "value": 2000
+          },
+          {
+            "field": "avg_sales_krw",
+            "op": ">=",
+            "value": 400000
+          }
+        ],
+        "sort_by": "store_count",
+        "sort_order": "desc",
+        "limit": 5
+      },
+      "assertions": {
+        "min": {
+          "total_matches": 1
+        },
+        "len_at_least": {
+          "results": 1
+        }
+      }
+    },
+    {
+      "index": "filter:002",
+      "tool": "brand_filter_search",
+      "input": {
+        "conditions": [
+          {
+            "field": "startup_total_initial_cost_krw",
+            "op": "<=",
+            "value": 100000
+          },
+          {
+            "field": "churn_rate",
+            "op": "<=",
+            "value": 0.05
+          }
+        ],
+        "sort_by": "startup_total_initial_cost_krw",
+        "sort_order": "asc",
+        "limit": 10
+      },
+      "assertions": {
+        "min": {
+          "total_matches": 1
+        },
+        "len_at_least": {
+          "results": 1
+        },
+        "not_null": [
+          "results[].metrics.store_count",
+          "results[].metrics.churn_rate"
+        ]
+      }
+    },
+    {
+      "index": "filter:003",
+      "tool": "brand_filter_search",
+      "input": {
+        "conditions": [
+          {
+            "field": "family_operation_rate",
+            "op": ">=",
+            "value": 0.1
+          }
+        ],
+        "limit": 5
+      },
+      "assertions": {
+        "error_contains": "지원하지 않는 필터 필드"
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "type": "agent_mode_easy_cases",
+  "difficulty": "easy",
+  "items": [
+    {
+      "index": "agent_easy:001",
+      "question": "교촌치킨의 최신 점포 수와 평균 매출을 알려줘.",
+      "eval": {
+        "coverage_groups": [
+          ["교촌치킨"],
+          ["점포 수", "매장 수"],
+          ["평균 매출"]
+        ]
+      }
+    },
+    {
+      "index": "agent_easy:002",
+      "question": "BBQ와 BHC의 2024년 점포 수와 평균 매출을 비교해줘.",
+      "eval": {
+        "coverage_groups": [
+          ["BBQ"],
+          ["BHC", "비에이치씨"],
+          ["점포 수", "매장 수"],
+          ["평균 매출"],
+          ["비교", "차이", "요약"]
+        ]
+      }
+    },
+    {
+      "index": "agent_easy:003",
+      "question": "점포 수가 2000개 이상인 브랜드를 몇 개 찾아줘.",
+      "eval": {
+        "coverage_groups": [
+          ["2000", "2,000"],
+          ["브랜드"],
+          ["점포 수", "매장 수"]
+        ]
+      }
+    }
+  ]
+}

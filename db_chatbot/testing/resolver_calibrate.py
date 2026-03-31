@@ -74,7 +74,7 @@ def main() -> int:
     args = parser.parse_args()
 
     load_env_file(BASE_DIR / ".env")
-    store = BrandDataStore(build_dir=BASE_DIR / "build")
+    store = BrandDataStore(build_dir=BASE_DIR / "build_api_selected")
     queries: list[str] = []
     queries.extend(args.query)
     if args.queries_file:

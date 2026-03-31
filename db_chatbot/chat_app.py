@@ -63,6 +63,7 @@ def run_once(
     }
 
     llm = ChatOpenAI(model=model, temperature=0).bind_tools(list(tools_by_name.values()))
+    plain_llm = ChatOpenAI(model=model, temperature=0)
 
     system = SystemMessage(
         content=(
@@ -109,7 +110,24 @@ def run_once(
                 )
             )
         final_msg = llm.invoke(messages)
-        return str(final_msg.content)
+        final_text = str(final_msg.content).strip()
+        if final_text:
+            return final_text
+
+        # Keep simple mode at one tool round, but force a textual answer if the
+        # second model turn tries to continue tool use instead of responding.
+        forced_answer = plain_llm.invoke(
+            messages
+            + [
+                HumanMessage(
+                    content=(
+                        "추가 tool 호출 없이, 지금까지의 tool 결과만 바탕으로 최종 답변을 한국어로 작성하세요. "
+                        "질문에서 요구한 내용을 가능한 범위까지 답하고, 없는 정보는 '원천 데이터에 없음'이라고 명시하세요."
+                    )
+                )
+            ]
+        )
+        return str(forced_answer.content)
 
     # Deterministic fallback: if model did not call any tool, invoke fallback tool explicitly.
     fallback_result = fallback_tool.invoke({"query": query, "top_k": 5, "include_overview": True})

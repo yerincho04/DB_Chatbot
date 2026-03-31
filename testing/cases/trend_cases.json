@@ -1,0 +1,66 @@
+{
+  "type": "trend_cases",
+  "items": [
+    {
+      "index": "trend:001",
+      "tool": "brand_trend",
+      "input": {
+        "brand_name": "교촌치킨",
+        "metrics": [
+          "store_count",
+          "churn_rate",
+          "avg_sales_krw"
+        ]
+      },
+      "assertions": {
+        "equals": {
+          "brand.brand_name": "교촌치킨"
+        },
+        "len_at_least": {
+          "timeline": 1
+        },
+        "not_null": [
+          "summary.store_count.delta",
+          "summary.churn_rate.trend",
+          "summary.avg_sales_krw.formatted.end_value"
+        ]
+      }
+    },
+    {
+      "index": "trend:002",
+      "tool": "brand_trend",
+      "input": {
+        "brand_name": "BBQ",
+        "metrics": [
+          "new_stores",
+          "net_store_change"
+        ]
+      },
+      "assertions": {
+        "equals": {
+          "brand.brand_name": "BBQ"
+        },
+        "len_at_least": {
+          "timeline": 1
+        },
+        "not_null": [
+          "summary.new_stores.trend",
+          "summary.net_store_change.formatted.end_value"
+        ]
+      }
+    },
+    {
+      "index": "trend:003",
+      "tool": "brand_trend",
+      "input": {
+        "brand_name": "교촌치킨",
+        "metrics": [
+          "family_operation_rate"
+        ]
+      },
+      "assertions": {
+        "error_contains": "지원하지 않는 추이 지표"
+      }
+    }
+  ]
+}
